@@ -2,6 +2,7 @@ const express = require("express");
 const cookieParser = require("cookie-parser");
 const userRoutes = require("./routes/userRoutes.js");
 const jobRoutes = require("./routes/JobRoutes.js");
+const cors = require("cors")
 const error = require("./middlewares/error.js");
 const app = express();
 
